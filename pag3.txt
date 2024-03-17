@@ -1,0 +1,9 @@
+/* Question: How can we find the largest among three numbers in C? */
+#include <stdio.h>
+
+int main() {
+    int a = 5, b = 10, c = 7;
+    int max = (a > b && a > c) ? a : ((b > c) ? b : c);
+    printf("Largest number: %d\n", max);
+    return 0;
+}
